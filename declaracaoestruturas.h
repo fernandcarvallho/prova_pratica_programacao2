@@ -1,5 +1,5 @@
 #ifndef DECLARACAOESTRUTURAS_H
-#define DECLARACAOESTRUTRAS_H
+#define DECLARACAOESTRUTURAS_H
 
 // 1. Dados do Voo
 typedef struct voo {
@@ -11,6 +11,7 @@ typedef struct voo {
  float combustívelMin; // Minutos de combustível restante
 char comando[10];
 } Voo;
+
 
 // 2. Tabela Hash com Mapeamento por Encadeamento
 #define TAM_HASH 13
